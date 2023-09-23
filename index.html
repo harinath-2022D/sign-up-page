@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h3>welocme back &#x1F44B</h3>
+        <h1>Sign up to your Account</h1>
+        <form id="form-box">
+            <label for="nam" class="tex">Your Name</label>
+            <div class="input-box">
+                <input class="tex size" type="text" placeholder="your name" id="name" name="nam">
+            </div>
+
+            <label class="tex" for="email">Your Email</label>
+            <div class="input-box">
+                <input class="tex size" type="text" placeholder="your email" id="email" name="email">
+            </div>
+
+            <label class="tex" for="password">Your Password</label>
+            <div class="input-box">
+                <input class="tex size" type="password" placeholder="your password" id="password" name="password">
+            </div>
+
+            <label class="tex" for="confirm-password">Confirm password</label>
+            <div class="input-box">
+                <input class="tex size" type="text" placeholder="confirm password" id="confirm-password" name="confirm-password">
+            </div>
+
+            <button class="size" id="sign-up">CONTINUE</button>
+
+            <div id="sign-up-error">
+                Error : All feilds are mandatory!
+            </div>
+
+        </form>
+
+        <p class="tex">Don't have an account? <span id="redirect">Sign up</span></p>
+
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+
+</html>
