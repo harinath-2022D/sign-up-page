@@ -8,7 +8,7 @@ const confirmPassword = document.getElementById('confirm-password');
 const signUpBtn = document.getElementById('sign-up');
 const signUpError = document.getElementById('sign-up-error');
 const accessToken = genRandonString(16);
-const profilePageADD = 'http://127.0.0.1:3000/profilePage.html';
+const profilePageADD = 'https://harinath-2022d.github.io/sign-up-page/profilePage.html';
 
 if (localStorage.getItem('token') != null) {
     window.location.href = profilePageADD;

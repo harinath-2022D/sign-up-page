@@ -3,7 +3,7 @@ const email = localStorage.getItem('email');
 const password = localStorage.getItem('password');
 const token = localStorage.getItem('token');
 //console.log(nam);
-const HOME = 'http://127.0.0.1:3000/index.html';
+const HOME = 'https://harinath-2022d.github.io/sign-up-page/index.html';
 
 function validateToken(){
 
